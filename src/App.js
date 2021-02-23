@@ -1,11 +1,11 @@
 import React from "react";
-import CsvInput from "./components/CsvControlPanel";
+import RenderTable from "./components/render-table/render-table";
 import "./app.css";
 
 const App = () => {
     return (
         <div className="container">
-            <CsvInput />
+            <RenderTable />
         </div>
     );
 };
